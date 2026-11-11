@@ -1,0 +1,20 @@
+{
+  "name": "b20-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx mocha .\\tests\\dmoney_api.test.js --timeout 10000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "axios": "^1.21.1",
+    "chai": "^6.3.0",
+    "dotenv": "^18.0.10",
+    "mocha": "^12.0.3"
+  }
+}
